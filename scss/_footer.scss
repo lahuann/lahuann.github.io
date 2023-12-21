@@ -1,0 +1,44 @@
+footer {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: $color-fondo-footer;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .footer-section {
+            flex: 1;
+            margin: 10px;
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #333;
+            }
+        }
+
+        .footer-social {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+
+            a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #333;
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

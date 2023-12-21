@@ -1,0 +1,42 @@
+@media (max-width: 1035px) {
+    .col-xl-6,
+    .col-xl-3 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ContenedorImagenesInicio {
+        min-height: calc(90vh);
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xl-6,
+    .col-xl-3 {
+        width: 100%;
+    }
+
+    .col-sm-12 {
+        height: 50%;
+    }
+
+    .ContenedorImagenesInicio {
+        min-height: calc(10px);
+    }
+
+    .ContenedorImagenesInicio {
+        min-height: calc(90vh);
+    }
+
+    .footer-section {
+        flex: 1 0 100%;
+    }
+
+    .videoyoutube {
+        width: auto;
+    }
+
+    .mapa {
+        width: auto;
+    }
+}
